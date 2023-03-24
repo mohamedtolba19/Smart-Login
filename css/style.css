@@ -1,0 +1,138 @@
+*
+
+{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --placeholder-color:#ccc ;
+   
+    
+  }
+body
+{
+    background-color: #24353f;
+    font-family: sans-serif;
+    
+}
+nav
+{
+    background-color: #24353f;
+  
+    box-shadow: -2px -2px 50px black;
+    
+}
+nav a 
+{
+    width: 100px;
+}
+nav a span
+{
+    color: #ccc;
+    font-size: 18px;
+}
+input::placeholder 
+{
+    color: var(--placeholder-color) !important;
+}
+.box
+{
+    background-color: #24353f;
+    box-shadow: -2px -2px 50px black;
+    width: 60%;
+    padding: 50px;
+}
+.box h1 
+{
+    color: #17a2b8;
+}
+::placeholder 
+{
+    color: #cccccc !important;
+}
+.box input 
+{
+    background-color: #24353f;
+    color: white !important;
+    
+}
+
+
+.box input:focus
+{
+    background-color: #24353f;
+    outline: none !important;
+    border: 1px solid #17a2b8 ;
+} 
+#login 
+{
+    background-color:#24353f  ;
+    color: #17a2b8;
+    border: 1px solid #17a2b8;
+}
+#login:hover
+{
+    background-color: #17a2b8;
+    color: white;
+}
+#signUp 
+{
+    background-color:#24353f  ;
+    color: #17a2b8;
+    border: 1px solid #17a2b8;
+}
+#signUp:hover
+{
+    background-color: #17a2b8;
+    color: white;
+}
+
+.box p 
+{
+    color: white;
+}
+.box p a 
+{
+    color: white;
+    text-decoration: none;
+    
+}
+.box p a:hover
+{
+    text-decoration: underline;
+} 
+.alert
+{
+   
+    
+    text-align: left;
+    padding: 0;
+    color: rgba(240, 52, 52, 0.8);
+    background-color: #24353f !important;
+    border: none;
+}
+
+.welcome 
+{
+  background-color: #24353f;
+  box-shadow: -2px -2px 50px black;
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+.welcome h3
+{
+    color: #17a2b8;
+}
+
+@media screen and  (min-width:0px) and  (max-width:800px)
+{
+
+    .box
+    {
+        width: 90%;
+    }
+}
